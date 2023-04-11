@@ -25,14 +25,14 @@ let convertFTtoM = (constVal, val) => val/constVal;
 
 
 // OUTPUT
-    // POUNDS TO KG
-    console.log(convertLBtoKG(LB_TO_KG, 157).toFixed(2))
+// POUNDS TO KG
+console.log(convertLBtoKG(LB_TO_KG, 157).toFixed(2))
 
-    //INCHES TO CM
-    console.log(convertINCHtoCM(INCH_TO_CM ,6).toFixed(2))
+//INCHES TO CM
+console.log(convertINCHtoCM(INCH_TO_CM ,6).toFixed(2))
 
-    //FAHRENHEIT TO CELSIUS
-    console.log(convertFtoC(50))
+//FAHRENHEIT TO CELSIUS
+console.log(convertFtoC(50))
 
-    //FEET TO CM
-    console.log(convertFTtoM(FT_TO_M,15).toFixed(2))
+//FEET TO CM
+console.log(convertFTtoM(FT_TO_M,15).toFixed(2))
