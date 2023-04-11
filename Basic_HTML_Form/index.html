@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Basic_HTML_FORM</title>
+
+    <link rel="stylesheet" href="style.css" type="text/css">
+    <script type="text/javascript" src="index.js"></script>
+</head>
+
+
+<body>
+    <div class="container">
+        <h1>Developer Registration</h1>
+        <form id="user_register" onsubmit="return false">
+            <label for="fname">First Name</label>
+            <input type="text" id="fname" name="firstname" placeholder="Please insert your name...">
+
+            <label for="lname">Last Name</label>
+            <input type="text" id="lname" name="lastname" placeholder="Please insert your lastname...">
+
+            <label for="email">Email</label>
+            <input type="text" id="email" name="email" placeholder="Ex: youremail@mail..co.za">
+            <label for="email">Email</label>
+
+            <input type="text" id="email" name="email" placeholder="Ex: youremail@mail..co.za">
+            <label for="province">Province</label>
+
+            <select id="country" name="country">
+                <option value="gau">Gauteng</option>
+                <option value="fs">Free State</option>
+                <option value="kzn">KwaZulu-Natal</option>
+            </select>
+
+            <button onclick="getUserData()">Submit</button>
+        </form>
+    </div>
+
+
+    <script type="text/javascript" src="index.js"></script>
+    
+</body>
+</html>
