@@ -7,3 +7,6 @@ function js_style(){
   }
   
 // EXERCISE 2  
+function getFormValue(){
+    
+}
