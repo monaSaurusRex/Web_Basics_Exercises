@@ -1,9 +1,9 @@
 /*Write the following conversion methods into arrow functions
 
     pounds -> kg
-    icnhes -> cm
+    inches -> cm
     F -> C
-    feet -> m
+    feet -> meter
 
     let myFunction = (a, b) => a * b;
 */
@@ -24,14 +24,15 @@ let convertFtoC = (val) => (val-32)*5/9;
 let convertFTtoM = (constVal, val) => val/constVal;
 
 
-// POUNDS TO KG
-console.log(convertLBtoKG(LB_TO_KG, 157))
+// OUTPUT
+    // POUNDS TO KG
+    console.log(convertLBtoKG(LB_TO_KG, 157).toFixed(2))
 
-//INCHES TO CM
-console.log(convertINCHtoCM(INCH_TO_CM ,6))
+    //INCHES TO CM
+    console.log(convertINCHtoCM(INCH_TO_CM ,6).toFixed(2))
 
-//FAHRENHEIT TO CELSIUS
-console.log(convertFtoC(50))
+    //FAHRENHEIT TO CELSIUS
+    console.log(convertFtoC(50))
 
-//FEET TO CM
-console.log(convertFTtoM(FT_TO_M,15))
+    //FEET TO CM
+    console.log(convertFTtoM(FT_TO_M,15).toFixed(2))
