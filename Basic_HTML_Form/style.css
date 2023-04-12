@@ -60,5 +60,14 @@ button:hover {
     font-size: medium;
 
   }
-  
+
+  input[type=text], select{
+    font-size:10px;
+  }
+
+  label{
+    font-size: 12px;
+  }
+
+
 }

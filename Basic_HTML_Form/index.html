@@ -23,16 +23,21 @@
 
             <label for="email">Email</label>
             <input type="text" id="email" name="email" placeholder="Ex: youremail@mail..co.za">
-            <label for="email">Email</label>
 
-            <label for="email">Programming Language</label>
+            <label for="programLang">Programming Language</label>
             <input type="text" id="proLang" name="proLang" placeholder="Ex: Java, JavaScript, C#">
-            <label for="email">Email</label>
 
-            <select id="country" name="country">
+            <label for="province">Province</label>
+            <select id="province" name="province">
+                <option value="none">Please select a province...</option>
                 <option value="gau">Gauteng</option>
                 <option value="fs">Free State</option>
                 <option value="kzn">KwaZulu-Natal</option>
+                <option value="ca">Western Cape</option>
+                <option value="nw">Northwest</option>
+                <option value="mp">Northwest</option>
+                <option value="l">Limpopo</option> 
+
             </select>
 
             <button onclick="getUserData()">Submit</button>
