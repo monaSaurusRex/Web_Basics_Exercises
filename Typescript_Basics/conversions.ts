@@ -8,7 +8,7 @@
     let myFunction = (a, b) => a * b;
 */
 
-let LB_TO_KG: number = 2.205,  INCH_TO_CM: number = 2.54, F_TO_C: number = 32, FT_TO_M: number = 3.281;
+const LB_TO_KG: number = 2.205,  INCH_TO_CM: number = 2.54, F_TO_C: number = 32, FT_TO_M: number = 3.281;
 
 
 // POUNDS TO KG
